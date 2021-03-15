@@ -104,3 +104,11 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+data/
+BAMnet/runs/
+BAMnet/data/
+parsers/
+images/
+notes.txt
+BAMnet/src/error_analysis.txt
