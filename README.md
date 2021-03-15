@@ -1,6 +1,6 @@
 # PFoodReq
 
-Code & data accompanying the WSDM 2021 paper "Personalized Food Recommendation as Constrained Question Answering over a Large-scale Food Knowledge Graph".
+Code & data accompanying the WSDM 2021 [paper](https://arxiv.org/pdf/2101.01775.pdf) "Personalized Food Recommendation as Constrained Question Answering over a Large-scale Food Knowledge Graph".
 
 
 ## Architecture
@@ -129,7 +129,7 @@ You can also download our generated benchmark from [here](https://1drv.ms/u/s!Aj
 
 ## Reference
 
-If you found this code useful, please consider citing the following paper:
+If you found this code useful, please consider citing the following [paper](https://arxiv.org/pdf/2101.01775.pdf):
 
 Yu Chen, Ananya Subburathinam, Ching-Hua Chen and Mohammed J. Zaki. **"Personalized Food Recommendation as Constrained Question Answering over a Large-scale Food Knowledge Graph."** In *Proceedings of the 14th International Conference on Web Search and Data Mining (WSDM 2021), Mar. 8-12, 2021.*
 
