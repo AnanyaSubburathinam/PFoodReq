@@ -235,9 +235,7 @@ def generate_constraint_qas(kg, kg_keys, constraint_qas_templates, constraint_qa
                 all_ingredient_names.add(in_name)
             dish_ingredient_map[dish_name] = ingredient_names
             dish_nutrition_map[dish_name] = dish_graph['neighbors']
-            dish_nutrition_map[dish_name]['fat'] = [float(dish_graph['neighbors']['polyunsaturated fat'][0]) +\
-                                                    float(dish_graph['neighbors']['monounsaturated fat'][0]) +\
-                                                    float(dish_graph['neighbors']['saturated fat'][0])]
+            dish_nutrition_map[dish_name]['fat'] = [float(dish_graph['neighbors']['fat'][0])]
 
 
         all_nutrition_types.discard('contains_ingredients')
@@ -605,9 +603,7 @@ def generate_multi_tag_qas_AND(kg, kg_keys, constraint_qas_templates, constraint
                 all_ingredient_names.add(in_name)
             dish_ingredient_map[dish_name] = ingredient_names
             dish_nutrition_map[dish_name] = dish_graph['neighbors']
-            dish_nutrition_map[dish_name]['fat'] = [float(dish_graph['neighbors']['polyunsaturated fat'][0]) +\
-                                                    float(dish_graph['neighbors']['monounsaturated fat'][0]) +\
-                                                    float(dish_graph['neighbors']['saturated fat'][0])]
+            dish_nutrition_map[dish_name]['fat'] = [float(dish_graph['neighbors']['fat'][0])]
 
 
         all_nutrition_types.discard('contains_ingredients')
@@ -879,9 +875,7 @@ def generate_multi_tag_qas_OR(kg, kg_keys, constraint_qas_templates, constraint_
                     all_ingredient_names.add(in_name)
                 dish_ingredient_map[dish_name] = ingredient_names
                 dish_nutrition_map[dish_name] = dish_graph['neighbors']
-                dish_nutrition_map[dish_name]['fat'] = [float(dish_graph['neighbors']['polyunsaturated fat'][0]) +\
-                                                        float(dish_graph['neighbors']['monounsaturated fat'][0]) +\
-                                                        float(dish_graph['neighbors']['saturated fat'][0])]
+                dish_nutrition_map[dish_name]['fat'] = [float(dish_graph['neighbors']['fat'][0])]
 
 
         all_nutrition_types.discard('contains_ingredients')

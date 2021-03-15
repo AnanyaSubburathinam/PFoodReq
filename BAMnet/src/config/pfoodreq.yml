@@ -8,7 +8,7 @@ test_raw_data: 'test_qas.json'
 pre_word2vec: '../data/kbqa/glove_pretrained_300d_w2v.npy'
 
 # Full vocab
-vocab_size: 10896
+vocab_size: 10952
 num_ent_types: 7
 num_relations: 11
 

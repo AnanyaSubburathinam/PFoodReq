@@ -763,9 +763,7 @@ def create_kg_view(raw_graph, nutrition_range, guideline, explicit_nutrition):
         raw_dish_graph = list(raw_graph['neighbors']['tagged_dishes'][idx].values())[0]
         dish_graph = list(dish_graph.values())[0]
 
-        raw_dish_graph['neighbors']['fat'] = [float(raw_dish_graph['neighbors']['polyunsaturated fat'][0]) +\
-                                                    float(raw_dish_graph['neighbors']['monounsaturated fat'][0]) +\
-                                                    float(raw_dish_graph['neighbors']['saturated fat'][0])]
+        raw_dish_graph['neighbors']['fat'] = [float(raw_dish_graph['neighbors']['fat'][0])]
         dish_graph['neighbors']['fat'] = [raw_dish_graph['neighbors']['fat'][0]]
 
 
