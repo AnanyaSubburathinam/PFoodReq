@@ -30,7 +30,7 @@ num_relations: 11
 num_query_words: 10
 
 # Output
-model_file: '../runs/kbqa_similar_recipes/pfoodreq_ent_mark_40.model'
+model_file: '../runs/pfoodreq_ent_mark_40.model'
 
 
 # Model
