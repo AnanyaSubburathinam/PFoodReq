@@ -21,7 +21,7 @@ Please take the following steps to create a python virtual environment.
 * Install the package requirements with `pip install -r requirements.txt`.
 
 
-You will need to download the partial FoodKG used in our experiments from [here](https://1drv.ms/u/s!AjiSpuwVTt09gVEK2dFDBitRvQ0l?e=tGHXuv) and move the `recipe_kg` folder to the `data` folder in this repo.
+~~You will need to download the partial FoodKG used in our experiments from [here](https://1drv.ms/u/s!AjiSpuwVTt09gVEK2dFDBitRvQ0l?e=tGHXuv) and move the `recipe_kg` folder to the `data` folder in this repo.~~ This fork updates the code to work with an updated version of recipe_kg.json made with an updated FoodKG.
 
 
 ## Create a KBQA dataset
@@ -32,7 +32,7 @@ You will need to download the partial FoodKG used in our experiments from [here]
 	python generate_all_qa.py -recipe ../../data/recipe_kg/recipe_kg.json -o ../../data/kbqa_data/ -out_of_domain_ratio 0.1 -split_ratio 0.6 0.2
 	```
 
-You can also download our generated benchmark from [here](https://1drv.ms/u/s!AjiSpuwVTt09gVEK2dFDBitRvQ0l?e=tGHXuv) and move the `kbqa_data` folder to the `data` folder in this repo. In the downloaded `kbqa_data` folder, you will also see additional files used in the KBQA+RecipeSim setting.
+~~You can also download our generated benchmark from [here](https://1drv.ms/u/s!AjiSpuwVTt09gVEK2dFDBitRvQ0l?e=tGHXuv) and move the `kbqa_data` folder to the `data` folder in this repo. In the downloaded `kbqa_data` folder, you will also see additional files used in the KBQA+RecipeSim setting.~~
 
 ## Run a KBQA system
 
